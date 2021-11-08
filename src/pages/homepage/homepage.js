@@ -4,15 +4,19 @@ import "./homepage.scss";
 
 const HomePage = () => {
     return (
-        <div className="homepage">
-            <div>
+        <div className="main-section">
+            <div className="video-section">
+                <div className="room_lobby">
+                    <VideoChat />
+                </div>
+                <div className="room_lobby">
+                    <VideoChat />
+                </div>
+            </div>
+            <div className="editor-section">
 
             </div>
-            <div>
-                <VideoChat />
-            </div>
-            This is Homepage
-        </div>
+        </div >
     );
 };
 
