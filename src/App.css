@@ -60,6 +60,8 @@ h2 {
   font-weight: 300;
   margin-bottom: 1em;
   text-align: center;
+  /* position: absolute; */
+  top: 0.2rem;
 }
 
 form > div {
@@ -93,6 +95,7 @@ button:hover {
 
 .room {
   position: relative;
+  width: 100%;
 }
 .room button {
   position: absolute;
