@@ -5,16 +5,16 @@ const ContextMenu = () => {
     return (
         <div className="main-context">
             <select value="Contextual Menu">
-                <option value="Orange">Contextual Menu</option>
-                <option value="Radish">Show/Hide Interviewer</option>
-                <option value="Cherry">Show/Hide Self</option>
-                <option value="Radish">Mute/Unmute</option>
-                <option value="Cherry">Please speak louder</option>
-                <option value="Radish">Please speak more clearly</option>
-                <option value="Cherry">I need a break</option>
-                <option value="Radish">Enable Captions</option>
-                <option value="Cherry">Report Technical Issue</option>
-                <option value="Cherry">More options...</option>
+                <option value="1">Contextual Menu</option>
+                <option value="2">Show/Hide Interviewer</option>
+                <option value="3">Show/Hide Self</option>
+                <option value="4">Mute/Unmute</option>
+                <option value="5">Please speak louder</option>
+                <option value="6">Please speak more clearly</option>
+                <option value="7">I need a break</option>
+                <option value="8">Enable Captions</option>
+                <option value="9">Report Technical Issue</option>
+                <option value="10">More options...</option>
             </select>
         </div >
     );
