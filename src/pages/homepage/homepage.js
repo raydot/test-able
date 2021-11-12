@@ -1,5 +1,6 @@
 import React from "react";
 import VideoChat from "../../components/livevideo/livevideo";
+import ContextMenu from "./contextMenu";
 import "./homepage.scss";
 
 const HomePage = () => {
@@ -14,7 +15,14 @@ const HomePage = () => {
                 </div>
             </div>
             <div className="editor-section">
-
+                <div className="heading-area">
+                    <p className="code-editor-title">Code Editor:</p>
+                    <ContextMenu />
+                </div>
+                <textarea 
+                    className="code-editor"
+                    placeholder="Type your code here..."
+                ></textarea>
             </div>
         </div >
     );

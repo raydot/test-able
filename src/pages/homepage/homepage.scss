@@ -17,7 +17,28 @@
   }
   .editor-section {
     display: flex;
+    flex-direction: column;
     width: 100%;
+    padding: 10px;
     height: 60%;
+  }
+  .code-editor-title {
+    text-align: left;
+    padding: 10px 0;
+    font-weight: bold;
+    color: green;
+  }
+  .heading-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .main-context {
+    padding: 10px 0;
+  }
+  .code-editor {
+    height: 100%;
+    padding: 10px;
+    background-color: #f3f3f3;
   }
 }
