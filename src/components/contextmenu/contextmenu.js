@@ -1,10 +1,12 @@
 import React from "react";
-import "./homepage.scss";
+import "../../pages/homepage/homepage.scss";
 
 const ContextMenu = () => {
     return (
         <div className="main-context">
-            <select value="Contextual Menu">
+            <label htmlFor="option"></label>
+
+            <select id="option">
                 <option value="1">Contextual Menu</option>
                 <option value="2">Show/Hide Interviewer</option>
                 <option value="3">Show/Hide Self</option>

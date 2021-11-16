@@ -1,6 +1,7 @@
 import React from "react";
+import CodeEditor from "../../components/codeeditor/codeeditor";
+import ContextMenu from "../../components/contextmenu/contextmenu";
 import VideoChat from "../../components/livevideo/livevideo";
-import ContextMenu from "./contextMenu";
 import "./homepage.scss";
 
 const HomePage = () => {
@@ -19,10 +20,7 @@ const HomePage = () => {
                     <p className="code-editor-title">Code Editor:</p>
                     <ContextMenu />
                 </div>
-                <textarea 
-                    className="code-editor"
-                    placeholder="Type your code here..."
-                ></textarea>
+                <CodeEditor />
             </div>
         </div >
     );
