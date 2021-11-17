@@ -16,7 +16,8 @@ const ContextMenu = () => {
                 <option value="7">I need a break</option>
                 <option value="8">Enable Captions</option>
                 <option value="9">Report Technical Issue</option>
-                <option value="10">More options...</option>
+                <option value="10">Braille Reader</option>
+                <option value="11">More options...</option>
             </select>
         </div >
     );

@@ -26,7 +26,12 @@
     text-align: left;
     padding: 10px 0;
     font-weight: bold;
-    color: green;
+    color: #333e5a;
+  }
+  .remote_label,
+  .room_label {
+    font-weight: bold;
+    color: #333e5a;
   }
   .heading-area {
     display: flex;
