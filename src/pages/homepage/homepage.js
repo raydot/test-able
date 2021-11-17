@@ -11,9 +11,6 @@ const HomePage = () => {
                 <div className="room_lobby">
                     <VideoChat />
                 </div>
-                <div className="room_lobby">
-                    <VideoChat />
-                </div>
             </div>
             <div className="editor-section">
                 <div className="heading-area">

@@ -1,0 +1,25 @@
+.room {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  .room_label,
+  .log_out,
+  .remote_label {
+    position: absolute;
+  }
+  .log_out {
+    left: 40%;
+  }
+  .room_label {
+    left: 10px;
+  }
+  .remote_label {
+    right: 20%;
+  }
+  .local-participant {
+    width: 50%;
+  }
+  .remote-participant {
+    width: 50%;
+  }
+}
