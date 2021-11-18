@@ -24,6 +24,7 @@ const VideoChat = () => {
             setConnecting(true);
             const data = await fetch(`${serverPath}/video/token`, {
                 method: "POST",
+                mode:'no-cors',
                 body: JSON.stringify({
                     identity: username,
                     room: roomName,
