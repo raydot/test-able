@@ -6,8 +6,6 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-        {/* <h1>testABLE</h1>
-        <span>   Online code testing for everyone. </span> */}
         <HomePage />
       </div>
     )
