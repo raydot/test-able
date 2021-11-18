@@ -8,7 +8,7 @@ const VideoChat = () => {
     const [roomName, setRoomName] = useState("");
     const [room, setRoom] = useState(null);
     const [connecting, setConnecting] = useState(false);
-    const serverPath = "https://test-able-server.herokuapps.com";
+    const serverPath = "https://test-able-server.herokuapp.com";
 
     const handleUsernameChange = useCallback((event) => {
         setUsername(event.target.value);
