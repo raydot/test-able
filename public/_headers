@@ -1,2 +1,4 @@
-/https://test-able-server.herokuapp.com/
-  Access-Control-Allow-Origin: *
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
