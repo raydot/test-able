@@ -8,6 +8,7 @@ const VideoChat = () => {
     const [roomName, setRoomName] = useState("");
     const [room, setRoom] = useState(null);
     const [connecting, setConnecting] = useState(false);
+    const serverPath = "http://test-able-server.herokuapps.com";
 
     const handleUsernameChange = useCallback((event) => {
         setUsername(event.target.value);
@@ -21,7 +22,7 @@ const VideoChat = () => {
         async (event) => {
             event.preventDefault();
             setConnecting(true);
-            const data = await fetch("/video/token", {
+            const data = await fetch(`${serverPath}/video/token`, {
                 method: "POST",
                 body: JSON.stringify({
                     identity: username,
