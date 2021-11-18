@@ -19,7 +19,7 @@ const HomePage = () => {
                 </div>
                 <CodeEditor />
             </div>
-        </div >
+        </div>
     );
 };
 
