@@ -1,2 +1,2 @@
-/*
-  Access-Control-Allow-Origin: https://test-able2021.com
+/https://test-able-server.herokuapp.com/
+	Access-Control-Allow-Origin: *
