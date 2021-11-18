@@ -2,6 +2,8 @@
 
 A web app for administering coding tests to applicants with disabilities.
 
+Node version: 14.18.1
+Later Node versions will not work with x64 Macs
 --
 
 # Getting Started with Create React App

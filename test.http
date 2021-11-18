@@ -1,0 +1,16 @@
+// URLs to test with REST Client
+
+@baseUrl = http://localhost:8888
+
+// create todo item
+POST {{baseUrl}}/api/create
+content-type: application/json
+
+{ 
+    "text": "Feed the fish"
+}
+
+###
+
+GET https://www.davekanter.com
+content-type: text/html

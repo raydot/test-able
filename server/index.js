@@ -1,12 +1,18 @@
 const config = require('./config');
 const express = require('express');
+const serverless = require('serverless-http')
 const bodyParser = require('body-parser');
 const pino = require('express-pino-logger')();
 const { videoToken } = require('./tokens');
 
+// This could/should be split into development and production builds
+
 const app = express();
+const router = express.Router()
+
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+
 app.use(pino);
 
 const sendTokenResponse = (token, res) => {
@@ -24,14 +30,14 @@ app.get('/api/greeting', (req, res) => {
     res.send(JSON.stringify({ greeting: `Hello ${name}!` }));
 });
 
-app.get('/video/token', (req, res) => {
+router.get('/video/token', (req, res) => {
     const identity = req.query.identity;
     const room = req.query.room;
     const token = videoToken(identity, room, config);
     sendTokenResponse(token, res);
 
 });
-app.post('/video/token', (req, res) => {
+router.post('/video/token', (req, res) => {
     const identity = req.body.identity;
     const room = req.body.room;
     const token = videoToken(identity, room, config);
@@ -41,3 +47,5 @@ app.post('/video/token', (req, res) => {
 app.listen(3001, () =>
     console.log('Express server is running on localhost:3001')
 );
+
+module.exports.handler = serverless(app)
