@@ -29,7 +29,7 @@ const VideoChat = () => {
                     room: roomName,
                 }),
                 headers: {
-                    "Content-Type": "application/json",
+                    "Content-Type": "text/plain",
                 },
             }).then((res) => res.json());
             Video.connect(data.token, {

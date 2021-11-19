@@ -1,0 +1,44 @@
+{
+  "JobPostings": [
+    {
+      "Role": "Front End Developer",
+      "Location": "Remote",
+      "Experience": "5+ years",
+      "Description": "React developer wanted for auto sales startup.",
+      "Skills": "React, Javascript, CSS",
+      "DatePosted": "2021-09-19T07:00:00.000Z"
+    },
+    {
+      "Role": "Front End Developer",
+      "Location": "Boston",
+      "Experience": "3+ years",
+      "Description": "React developer needed for local sports franchise.",
+      "Skills": "React, Javascript, CSS",
+      "DatePosted": "2021-10-06T07:00:00.000Z"
+    },
+    {
+      "Role": "UX Designer",
+      "Location": "San Francisco",
+      "Experience": "Entry-Level",
+      "Description": "Restaurant franchise seeks UX Designer",
+      "Skills": "Photoshop, Figma, CSS, Research",
+      "DatePosted": "2021-10-26T07:00:00.000Z"
+    },
+    {
+      "Role": "Full Stack Developer",
+      "Location": "Chicago",
+      "Experience": "3+ years",
+      "Description": "Cyber-currency banking organization looking for full stack developer",
+      "Skills": "React, Javascript, Node, Next, Kafka",
+      "DatePosted": "2021-11-05T07:00:00.000Z"
+    },
+    {
+      "Role": "Data Analyst",
+      "Location": "Chicago",
+      "Experience": "5+ years",
+      "Description": "Cyber-currency banking organization looking for data analyst",
+      "Skills": "Python, Kafka, Mathworks",
+      "DatePosted": "2021-11-05T07:00:00.000Z"
+    }
+  ]
+}
